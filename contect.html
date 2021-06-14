@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>univarcity wapside desin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class= "sub-header">
+        <nav>
+            <a href="index.html"> <img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemanu()"></i>
+
+                <ul>
+                    <li><a href="wapside.html"> home</a></li>
+                    <li><a href="about us.html"> about us</a></li>
+                    <li><a href="corces.html"> course</a></li>
+                    <li><a href="blog.html"> blog</a></li>
+                    <li><a href="contect.html"> contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmanu()"></i>
+
+        </nav>
+
+    <h1>contact us</h1>
+
+    </section>
+ 
+  <!--contect us-->
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d459.07382925049274!2d72.62147332333242!3d23.002070662800012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87a63194b8fd%3A0x54b5ec4feb6271c2!2s4You%20Skin%20hair%20makeup%20Academy%20%26%20Saloon!5e0!3m2!1sen!2sin!4v1620121000206!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <section class="contect-us">
+    <div class="row">
+      <div class="contact-col">
+  <div><i class="fa fa-home" aria-hidden="true"></i>
+  <span>
+    <h5>XYZ Rode,abc bulding</h5>
+    <p>banglore,india</p>
+  </span>
+</div>
+<div><i class="fa fa-phone" aria-hidden="true"></i>
+  <span>
+    <h5>+91 532565854</h5>
+    <p>monday to saturday,10AM to 6PM</p>
+  </span>
+</div>
+<div><i class="fa fa-envelope-o" aria-hidden="true"></i>
+  <span>
+    <h5>info@harshparmar@gmail.com</h5>
+    <p>email us to contact</p>
+  </span>
+</div>
+      </div>
+    <div class="contact-us">
+
+      <form action="form-heandler.php" method="POST">
+        <input type="text" placeholder="enter your name" name="name" required>
+        <input type="email" placeholder="enter your email" name="email" required>
+        <input type="text" placeholder="enter your subject"  name="subject"   required>
+        <textarea rows="8" placeholder="message"  name="message"   required></textarea>
+        <button type="submit" class="hero-btn red-btn"> send massage</button>
+
+      </form>
+
+    </div>
+    </div>
+  </section>
+  
+<!--fotter-->
+<section class="footer">
+    <h4>about us</h4>
+    <p>Learn How To Make A Complete Website Using HTML and Complete HTML and CSS<br> Multiple Pages Website Design Tutorial Step by Step</p>
+<div class="icon">
+    <a href="">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-youtube" aria-hidden="true"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+</div>
+<p>made by   <i class="fa fa-heart-o" aria-hidden="true"></i> harsh parmar </p>
+
+</section>
+  <!--  ----------------java script for mobil --------------------  -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmanu(){
+            navlinks.style.right="0";
+        }
+        function hidemanu(){
+            navlinks.style.right="-200px";
+        }
+
+        
+
+    </script>
+</body>
+</html>
